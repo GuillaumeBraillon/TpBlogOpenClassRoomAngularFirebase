@@ -1,0 +1,14 @@
+<h4 class="mb-2">Tell your friends something</h4>
+<form [formGroup]="postForm" (ngSubmit)="onSavePost()">
+<div class="form-row">
+    <div class="form-group col-sm-6">
+        <label for="title">Title</label>
+        <input type="text" id="title" class="form-control" formControlName="title">
+    </div>
+    <div class="form-group col-sm-6">
+        <label for="coment">Comment</label>
+        <textarea id="content" class="form-control" formControlName="content"></textarea>
+    </div>
+    <button class="btn btn-primary" [disabled]="postForm.invalid" type="submit">Submit</button>
+</div>
+</form>
