@@ -1,5 +1,6 @@
 # blog
  Blog exercise from the OpenClassRoom course titled "Développez des applications Web avec Angular" using Angular and Firbase.
+ https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
 
